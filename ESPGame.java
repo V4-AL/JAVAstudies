@@ -7,9 +7,7 @@ public class ESPGame {
         try (Scanner scanner = new Scanner(System.in)) {
             Random random = new Random();
             int scoreCount=0;
-            int index = random.nextInt(colorOptions.length);
-            String selectedColor = colorOptions[index];
-            selectedColor = colorOptions[random.nextInt(colorOptions.length)];
+            String selectedColor = colorOptions[random.nextInt(colorOptions.length)];
             int GuessCount = 0;
             System.out.println("Welcome To ESP Game, by yours truly!!!!!!!");
             System.out.println("I have selected a color from the following options: Red, Green, Blue, Orange, Yellow");
