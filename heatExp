@@ -30,7 +30,7 @@ public class HeatExperiment {
             if (average > 100) {
                 System.out.println("Experiment " + i + ": " + average + "°C - STATUS: UNSTABLE");
             } else {
-                System.out.println("Experiment " + i + ": " + average + "°C - STATUS: NORMAL");
+                System.out.println("Experiment " + i + ":" + average + "°C - STATUS: NORMAL");
             }
         }
         
