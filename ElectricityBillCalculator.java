@@ -51,7 +51,7 @@ public class ElectricityBillCalculator {
 		
 		System.out.println("BILLING SUMMARY");
 		System.out.printf("Total Consumption: %.2f kWh%n", totalConsumption);
-		System.out.printf("Total Cost:        $%.2f%n", totalCost);
+		System.out.printf("Total Cost: $%.2f%n", totalCost);
 		System.out.println("\nNote: A 15%% surcharge is applied to appliances consuming over 100 kWh.");
 
 		scanner.close();
