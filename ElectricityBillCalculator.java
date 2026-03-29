@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ElectricityBillCalculator {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.	in);
+		Scanner scanner = new Scanner(System.in);
 
 		// Variables to track totals
 		double COST_PER_KWH = 0.20;
