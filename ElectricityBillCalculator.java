@@ -18,7 +18,7 @@ public class ElectricityBillCalculator {
 
 		// Loop through each appliance to collect consumption and calculate cost
 		for (int i = 1; i <= n; i++) {
-			System.out.print("Enter consumption 			(kWh) for Appliance " + i + ": ");
+			System.out.print("Enter consumption (kWh) for Appliance " + i + ": ");
 			double consumption = scanner.nextDouble();
 
 			// Calculate base cost
