@@ -14,11 +14,11 @@ public  class TwoDimensionsalArray {
         System.out.println("Product of leading diagonal of Matrix K is: "+a);
 
         //Trailing diagonal of Matrix K 
-        int c = K[0][2];
+        int d = K[0][2];
         for(int y=1; y<J.length;y++) {
             for(int x=0; x<K[y].length-1;x++) {
                 if(x+y==K.length-1) {
-                    c *= K[y][x];
+                    d*= K[y][x];
                 }
             }
         }
