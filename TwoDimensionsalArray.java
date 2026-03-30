@@ -14,33 +14,33 @@ public  class TwoDimensionsalArray {
         System.out.println("Product of leading diagonal of Matrix K is: "+a);
 
         //Trailing diagonal of Matrix K 
-        int d = K[0][2];
+        int b = K[0][2];
         for(int y=1; y<J.length;y++) {
             for(int x=0; x<K[y].length-1;x++) {
                 if(x+y==K.length-1) {
-                    d*= K[y][x];
+                    b*= K[y][x];
                 }
             }
         }
         System.out.println("Product of trailing diagonal of Matrix K is: "+c);
         
         //Leading diagonal of Matrix J
-        int b = J[0][0];
+        int c= J[0][0];
         for(int y=1; y<J.length;y++) {
             for(int x=1; x<J[y].length;x++) {
                 if(x==y) {
-                    b *= J[y][x];
+                    c *= J[y][x];
                 }
             }
 
         }
         System.out.println("Product of leading diagonal of Matrix J is: " + b);
 
-        int c = K[0][0];
+        int d = K[0][0];
         for(int y=1; y<K.length;y++) {
             for(int x=1; x<K[y].length;x++) {
                 if(x+y==K.length-1) {
-                    c *= K[y][x];
+                    d*= K[y][x];
                 }
             }
         }
