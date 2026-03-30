@@ -11,7 +11,7 @@ public  class TwoDimensionsalArray {
                 }
             }
         }
-        System.out.println("Product of leading diagonal of Matrix K is: "+a);
+        System.out.println("Product of leading diagonal of Matrix K is: "+ a);
 
         //Trailing diagonal of Matrix K 
         int b = K[0][2];
@@ -22,7 +22,7 @@ public  class TwoDimensionsalArray {
                 }
             }
         }
-        System.out.println("Product of trailing diagonal of Matrix K is: "+c);
+        System.out.println("Product of trailing diagonal of Matrix K is: "+ b);
         
         //Leading diagonal of Matrix J
         int c= J[0][0];
@@ -34,7 +34,7 @@ public  class TwoDimensionsalArray {
             }
 
         }
-        System.out.println("Product of leading diagonal of Matrix J is: " + b);
+        System.out.println("Product of leading diagonal of Matrix J is: " + c);
 
         int d = J[0][2];
         for(int y=1; y<K.length;y++) {
@@ -44,7 +44,7 @@ public  class TwoDimensionsalArray {
                 }
             }
         }
-        System.out.println("Product of trailing diagonal of Matrix K is: "+c);
+        System.out.println("Product of trailing diagonal of Matrix K is: "+ d);
 
     }
 }
