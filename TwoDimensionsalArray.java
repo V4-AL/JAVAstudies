@@ -36,11 +36,11 @@ public  class TwoDimensionsalArray {
         }
         System.out.println("Product of leading diagonal of Matrix J is: " + b);
 
-        int d = K[0][0];
+        int d = J[0][0];
         for(int y=1; y<K.length;y++) {
-            for(int x=1; x<K[y].length;x++) {
-                if(x+y==K.length-1) {
-                    d*= K[y][x];
+            for(int x=1; x<J[y].length;x++) {
+                if(x+y==J.length-1) {
+                    d*= J[y][x];
                 }
             }
         }
